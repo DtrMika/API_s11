@@ -6,4 +6,8 @@ fetch(URL)
   .then((data) => {
     const img = document.getElementById("imgen");
     img.src = data.message;
+
+    const nombreRaza = data.message.split("/")[4];
+    const describe = document.getElementById("descripcion");
+    describe.innerHTML = `Raza: <b>${nombreRaza}</b>`;
   });
