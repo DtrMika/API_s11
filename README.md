@@ -1,22 +1,9 @@
 # API_s11
-Code Challenge
-IMPORTANTE: En todo momento deberás estar compartiendo la pantalla y tener el micrófono abierto.
 
+Para este taller te proponemos dos consignas:
 
-Para este Code Challenge te desafíamos a:
+1. Lee atentamente el siguiente artículo => https://www.redhat.com/es/topics/api/what-are-application-programming-interfaces y realiza un resumen, esquema o presentación de la información que te parezca más relevante.
 
-1) Investigar cómo realizar una solicitud HTTP utilizando la función fetch(), tal como venimos haciendo en el proyecto, pero esta vez usando  el método POST.
+2. Busca ejemplos de APIs para sitios web, elige uno de ellos y realiza la conexión al mismo. El código implementado deberás subirlo a un repositorio de GitHub.
 
-2) Realiza una página web en donde deberás crear un formulario de registro con los campos "Nombre", "Apellido" y "Fecha de Nacimiento".
-
-3) Implementa el código JS para que la información del formulario pueda enviarse en formato JSON al siguiente endpoint => https://jsonplaceholder.typicode.com/users.
-
-4) Si el código está correcto, el servidor responderá al fetch con la información que le has enviado. Saca captura de pantalla que prueba que estás recibiendo la respuesta del servidor.
-
-5) Publica en el foro de entrega de la actividad la captura de pantalla y el link del proyecto.
-
- 
-
-Notas:
-
-jsonplaceholder.typicode.com es un fake API que no guarda realmente la información.
+\*La entrega de la consigna consistirá en compartir el resumen y el link de GitHub que realizaste en el taller.
