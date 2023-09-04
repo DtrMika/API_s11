@@ -1,8 +1,17 @@
 body {
   background-color: black;
 }
-.cont1 {
+.cont2 {
+  align-items: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cont1 {
+  padding-top: 100px;
+  display: grid;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
