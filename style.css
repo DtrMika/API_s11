@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(17, 9, 9);
 }
 .cont2 {
   align-items: center;
@@ -8,6 +8,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  color: rgb(175, 242, 220);
 }
 .cont1 {
   padding-top: 100px;
@@ -19,7 +20,7 @@ body {
   /*espacio entre las cartas*/
 }
 h1 {
-  color: aquamarine;
+  color: rgb(175, 242, 220);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -31,11 +32,12 @@ h1 {
   cursor: pointer;
   border: none;
   padding: 12px 28px;
-  color: aquamarine;
+  color: rgb(175, 242, 220);
   font-size: 18px;
   font-weight: bold;
   position: relative;
   border-radius: 10px;
+  left: 35%;
 }
 
 #refresh::before {
@@ -68,10 +70,13 @@ h1 {
   }
 
   50% {
-    background-position: 400% 0;
+    background-position: 280% 0;
   }
 
   100% {
     background-position: 0 0;
   }
+}
+.card-text {
+  color: rgb(175, 242, 220);
 }

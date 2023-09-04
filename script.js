@@ -8,10 +8,12 @@ fetch(URL)
     const nombreRaza = data.message.split("/")[4];
     const describe = document.getElementById("descripcion");
     describe.innerHTML = `
-            <div class="card-row" style="width: 30rem;">
+            <div class="card" style="width: 30rem;">
                 <img class="card-img-top" src=${data.message} alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text">Raza: <b>${nombreRaza}</b</p>
+                    <p class="card-text">Raza: <b>${nombreRaza}</b>
+                    </br></br>
+                    Dale click a refrescara para actualizar!</p>
                 </div>
             </div>`;
   });
